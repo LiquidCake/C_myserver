@@ -1,0 +1,5 @@
+for child process debugging: 
+1. #include <signal.h>
+2. signal(SIGTRAP, SIG_IGN); - add right after fork()
+3. set follow-fork-mode child   - execute in gdb prompt
+
