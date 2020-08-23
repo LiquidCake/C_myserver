@@ -1,2 +1,2 @@
 # C_myserver
-basic HTTP server for learning C
+basic HTTP server written in order to learn C
